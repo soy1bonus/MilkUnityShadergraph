@@ -1,0 +1,24 @@
+{
+  "name": "com.milkstone.shadergraph",
+  "version": "0.0.1",
+  "displayName": "Milkstone Shadergraph",
+  "description": "Compilation of shaders using Shadergraph",
+  "unity": "6000.1",
+  "unityRelease": "0b5",
+  "documentationUrl": "https://github.com/soy1bonus/MilkUnityShadergraph",
+  "changelogUrl": "https://github.com/soy1bonus/MilkUnityShadergraph/blob/main/README.md",
+  "licensesUrl": "https://github.com/soy1bonus/MilkUnityShadergraph/blob/main/LICENSE.md",
+  "dependencies": {
+    "com.unity.shadergraph": "17.0.0"
+ },
+ "keywords": [
+    "shadergraph",
+    "milkstone",
+    "shader"
+  ],
+  "author": {
+    "name": "Miguel Herrero",
+    "email": "miguel@milkstonestudios.com",
+    "url": "https://www.milkstonestudios.com"
+  }
+}
