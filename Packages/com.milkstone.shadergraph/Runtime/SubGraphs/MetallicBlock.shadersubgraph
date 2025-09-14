@@ -715,7 +715,7 @@
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.CategoryData",
     "m_ObjectId": "91c71dec2d0f4ddd902d3ce1012e8139",
-    "m_Name": "Metallic Properties",
+    "m_Name": "METALLIC PROPERTIES",
     "m_ChildObjectList": [
         {
             "m_Id": "b5b42daae5924ab78768190dace101c3"

@@ -25,7 +25,7 @@ Material:
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
-  - _ALBEDO_TEXTURE_USAGE_ALL
+  - _ALBEDO_TEXTURE_USAGE_COLOR
   - _ALBEDO_VC_USAGE_OFF
   m_InvalidKeywords: []
   m_LightmapFlags: 4
@@ -75,12 +75,20 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Mask:
+        m_Texture: {fileID: 2800000, guid: 74a0cc56ceca0224291f9bc3b0040781, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Metallic_Texture:
         m_Texture: {fileID: 2800000, guid: cbf448083c2db9140831166167c05224, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalDetail_Texture:
+        m_Texture: {fileID: 2800000, guid: e06b3d9311c3b4d478920edef6c6e308, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Normal_Texture:
@@ -93,6 +101,10 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _ParallaxMap:
         m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Rain_Map:
+        m_Texture: {fileID: 2800000, guid: 54a5186a9eca0cd4795c5595fa11a58c, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SpecGlossMap:
@@ -114,7 +126,7 @@ Material:
     m_Ints: []
     m_Floats:
     - _ALBEDOVERTEXCOLORUSAGE: 0
-    - _ALBEDO_TEXTURE_USAGE: 0
+    - _ALBEDO_TEXTURE_USAGE: 1
     - _ALBEDO_VC_USAGE: 0
     - _AddPrecomputedVelocity: 0
     - _AlphaClip: 0
@@ -136,11 +148,14 @@ Material:
     - _GlossyReflections: 0
     - _Metallic: 0
     - _Mode: 0
+    - _NormalDetail_Scale: 0.5
+    - _NormalDetail_Strength: 0.5
     - _Normal_Strength: 1
     - _OcclusionStrength: 1
     - _Parallax: 0.005
     - _QueueControl: 0
     - _QueueOffset: 0
+    - _Rain_Speed: 1
     - _ReceiveShadows: 1
     - _Smoothness: 0.8
     - _SmoothnessTextureChannel: 0
@@ -149,16 +164,18 @@ Material:
     - _SrcBlendAlpha: 1
     - _Surface: 0
     - _UVSCALE_CHANNEL: 0
+    - _UVScale: 0.5
     - _UVSec: 0
-    - _UV_Scale: 2
+    - _UV_Scale: 0.5
     - _WorkflowMode: 1
     - _XRMotionVectorsPass: 1
     - _ZWrite: 1
     m_Colors:
-    - _AlbedoColor: {r: 1, g: 1, b: 1, a: 1}
+    - _AlbedoColor: {r: 0.4339623, g: 0.20060517, b: 0.20060517, a: 1}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _Rain_Color: {r: 0.42571494, g: 0.6603774, b: 0.6603774, a: 0.41960785}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _UVScale_Offset: {r: 0, g: 0, b: 0, a: 0}
     - _UVScale_Scale: {r: 1, g: 1, b: 0, a: 0}
